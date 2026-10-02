@@ -1,0 +1,20 @@
+{
+  "name": "Archivo Imposible",
+  "slug": "archivo_imposible",
+  "language": "es-AR",
+  "promise": "Historias reales que parecen inventadas",
+  "voice": "narrador documental cercano, rioplatense neutro",
+  "visual_style": "archivo histórico, documentos, mapas y recreaciones claramente identificadas",
+  "visual_motif": "Una archivista ilustrada recurrente aparece brevemente como guía; las escenas históricas se representan como recreaciones, nunca como fotografías de archivo auténticas.",
+  "formats": [
+    {"id": "esto-realmente-paso", "description": "Microdocumental cronológico basado en hechos documentados."},
+    {"id": "ultimas-horas", "description": "Reconstrucción cronológica solo cuando las fuentes permiten fijar horas."},
+    {"id": "pov-historico", "description": "Recreación en segunda persona; toda escena imaginada debe marcarse como recreación."}
+  ],
+  "editorial_rules": [
+    "No inventar hechos, citas, diálogos, cifras ni horas.",
+    "Distinguir hechos confirmados de incertidumbres y controversias.",
+    "Evitar detalles gráficos innecesarios.",
+    "No presentar imágenes generadas como archivo auténtico."
+  ]
+}

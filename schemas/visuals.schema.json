@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Scene visual prompts",
+  "type": "object",
+  "required": ["scenes"],
+  "properties": {
+    "scenes": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "required": ["scene_number", "image_prompt", "animation_prompt"],
+        "properties": {
+          "scene_number": {"type": "integer", "minimum": 1},
+          "image_prompt": {"type": "string", "minLength": 12},
+          "animation_prompt": {"type": "string", "minLength": 12}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
